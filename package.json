@@ -12,9 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "latest",
-    "d3": "latest",
-    "jsdom-no-contextify": "latest",
-    "svg-parser": "latest"
+    "d3": "^7.0.4",
+    "jsdom": "^17.0.0",
+    "svg-parser": "^2.0.4"
   },
   "devDependencies": {},
   "repository": {
@@ -27,4 +27,3 @@
   },
   "homepage": "https://github.com/arce/vizserver#readme"
 }
-
