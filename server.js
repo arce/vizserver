@@ -5,6 +5,7 @@
 import * as d3 from 'd3';
 import * as jsdom from 'jsdom';
 import * as http from 'http';
+import * as convert from 'xml-js';
 
 const { JSDOM } = jsdom;
 
@@ -44,8 +45,10 @@ function d3Draw() {
           .startAngle(function(d) { return d; })
           .endAngle(function(d) { return d + τ / n * 1.1; }))
       .style("fill", function(d) { return d3.hsl(d * 360 / τ, 1, .5); });
-
-   return svg.node().outerHTML
+	  var xml = svg.node().outerHTML;
+	const parsed = convert.xml2json(xml,{compact: true, spaces: 4});
+	  
+   return parsed
 }
 
 http.createServer(
