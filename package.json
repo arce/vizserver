@@ -1,0 +1,28 @@
+{
+  "name": "simple-node-d3",
+  "version": "1.0.0",
+  "description": "Serverside SVG via D3 & jsdom",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "tom.g.pearson@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^3.5.5",
+    "jsdom": "^3.1.2",
+	"svg-parser": "^2.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arce/vizserver.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/arce/vizserver/issues"
+  },
+  "homepage": "https://github.com/arce/vizserver#readme"
+}
