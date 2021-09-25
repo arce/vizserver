@@ -6,14 +6,15 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "tom.g.pearson@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.12",
     "d3": "^3.5.5",
     "jsdom": "^3.1.2",
-	"svg-parser": "^2.0.0"
+    "svg-parser": "^2.0.0"
   },
   "devDependencies": {},
   "repository": {
@@ -26,3 +27,4 @@
   },
   "homepage": "https://github.com/arce/vizserver#readme"
 }
+
