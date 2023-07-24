@@ -1,29 +1,10 @@
 {
-  "name": "simple-node-d3",
-  "version": "1.0.0",
-  "description": "Serverside SVG via D3 & jsdom",
+  "name": "treemap-d3",
+  "version": "0.0.1",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
-  },
-  "author": "tom.g.pearson@gmail.com",
-  "license": "ISC",
   "dependencies": {
-    "nodemon": "latest",
-    "d3": "^7.0.4",
-    "jsdom": "^17.0.0",
-    "xml-js": "^1.6.11"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arce/vizserver.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/arce/vizserver/issues"
-  },
-  "homepage": "https://github.com/arce/vizserver#readme"
+    "d3-hierarchy": "latest",
+    "clarinet": "latest"
+  }
 }
